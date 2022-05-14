@@ -9,6 +9,21 @@
     android:padding="10dp"
     tools:context=".twiter">
 
+    <Button
+        android:id="@+id/buttonBarChart15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Среднее количество времени проводящим пользователем в день"/>
 
+    <Button
+        android:id="@+id/buttonBarChart16"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Дневная аудитория в России"/>
+    <Button
+        android:id="@+id/buttonBarChart17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Месячная аудитория в России"/>
 
 </LinearLayout>

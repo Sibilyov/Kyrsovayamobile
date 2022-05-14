@@ -14,6 +14,26 @@ public class whatsapp extends AppCompatActivity {
         setContentView(R.layout.activity_whatsapp);
 
 
+            findViewById(R.id.buttonBarChart12).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(getApplicationContext(),BarChartActivity12.class));
+                }
+            });
 
+            findViewById(R.id.buttonBarChart13).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(getApplicationContext(),BarChartActivity13.class));
+                }
+            });
+
+
+            findViewById(R.id.buttonBarChart14).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(getApplicationContext(),BarChartActivity14.class));
+                }
+            });
         }
     }
