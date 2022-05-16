@@ -145,6 +145,60 @@
             android:name=".BarChartActivity"
             android:exported="false" />
         <activity
+            android:name=".BarChartActivity18"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity17"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity16"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity15"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity14"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity13"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity12"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity11"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity10"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity9"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity8"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity7"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity6"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity5"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity4"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity3"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity2"
+            android:exported="false" />
+        <activity
+            android:name=".BarChartActivity"
+            android:exported="false" />
+        <activity
             android:name=".twiter"
             android:exported="false" />
         <activity

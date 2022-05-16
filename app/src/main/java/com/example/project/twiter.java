@@ -14,6 +14,7 @@ public class twiter extends AppCompatActivity {
         setContentView(R.layout.activity_twiter);
 
 
+n
             findViewById(R.id.buttonBarChart15).setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View view) {
@@ -35,5 +36,6 @@ public class twiter extends AppCompatActivity {
                     startActivity(new Intent(getApplicationContext(),BarChartActivity17.class));
                 }
             });
+
         }
     }

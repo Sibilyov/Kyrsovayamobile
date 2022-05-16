@@ -30,7 +30,11 @@ public class BarChartActivity extends AppCompatActivity {
         visitors.add(new BarEntry(2020, 45));
         visitors.add(new BarEntry(2021, 40));
 
+
         BarDataSet barDataSet = new BarDataSet(visitors,"Показатель (млн)");
+
+        BarDataSet barDataSet = new BarDataSet(visitors,"Показатель (мин)");
+
         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
         barDataSet.setValueTextColor(Color.BLACK);
         barDataSet.setValueTextSize(16f);
