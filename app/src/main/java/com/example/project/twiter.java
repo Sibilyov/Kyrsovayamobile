@@ -14,5 +14,6 @@ public class twiter extends AppCompatActivity {
         setContentView(R.layout.activity_twiter);
 
 
+
         }
     }
