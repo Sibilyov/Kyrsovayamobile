@@ -14,6 +14,26 @@ public class facebook extends AppCompatActivity {
         setContentView(R.layout.activity_facebook);
 
 
+            findViewById(R.id.buttonBarChart9).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(getApplicationContext(),BarChartActivity9.class));
+                }
+            });
 
+            findViewById(R.id.buttonBarChart10).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(getApplicationContext(),BarChartActivity10.class));
+                }
+            });
+
+
+            findViewById(R.id.buttonBarChart11).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    startActivity(new Intent(getApplicationContext(),BarChartActivity11.class));
+                }
+            });
         }
     }
