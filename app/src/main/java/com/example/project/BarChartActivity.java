@@ -33,7 +33,7 @@ public class BarChartActivity extends AppCompatActivity {
 
         BarDataSet barDataSet = new BarDataSet(visitors,"Показатель (млн)");
 
-        BarDataSet barDataSet = new BarDataSet(visitors,"Показатель (мин)");
+       
 
         barDataSet.setColors(ColorTemplate.MATERIAL_COLORS);
         barDataSet.setValueTextColor(Color.BLACK);
